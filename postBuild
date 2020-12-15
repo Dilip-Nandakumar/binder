@@ -22,10 +22,9 @@ export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 ## install interesting packages
-echo "::: installing gophernotes, go-hep and gonum..."
-go get golang.org/x/tools/cmd/goimports
+echo "::: installing gophernotes..."
 go get github.com/gopherdata/gophernotes
-echo "::: installing gophernotes, go-hep and gonum... [done]"
+echo "::: installing gophernotes... [done]"
 
 ## setup environment for Go
 
