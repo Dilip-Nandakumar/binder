@@ -23,7 +23,7 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 ## install interesting packages
 echo "::: installing gophernotes..."
-go get github.com/gopherdata/gophernotes
+env GO111MODULE=on go get github.com/gopherdata/gophernotes
 echo "::: installing gophernotes... [done]"
 
 ## setup environment for Go
